@@ -9,6 +9,7 @@ function App() {
           <div className="login-logo">
             <h1>
               <span className="gym-name">Sandvika Gym</span>
+              <br></br>
               <span className="gym-sub">Administrasjonssystem</span>
             </h1>
           </div>
@@ -20,7 +21,7 @@ function App() {
             Feil Brukernavn eller passord
           </div>
           <div className="form-group">
-            <lable>Brukernavn</lable>
+            <label>Brukernavn</label>
             <input
               type="text"
               placeholder="Brukernavn"
@@ -36,7 +37,7 @@ function App() {
             />
           </div>
           // TODO: Add functionality to the login button
-          <button className="login-button">Logg inn</button>
+          <button className="btn btn-gold">Logg inn</button>
         </div>
       </div>
     </div>
