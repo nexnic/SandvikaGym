@@ -43,3 +43,15 @@ body::before {
   z-index: 9999;
   opacity: 0.1;
 }
+
+/* Login */
+.login-screen {
+  position: fixed;
+  inset: 0;
+  background: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  flex-direction: column;
+}
