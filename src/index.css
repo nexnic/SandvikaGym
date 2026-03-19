@@ -16,3 +16,10 @@
   --white: #f5ede0;
   --warning: #cc7700;
 }
+
+/* Default Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
