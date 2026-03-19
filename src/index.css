@@ -23,3 +23,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Body Styles*/
+body {
+  background: var(--black);
+  color: var(--text);
+  font-family: monspace;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
