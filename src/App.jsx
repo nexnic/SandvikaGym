@@ -1,10 +1,22 @@
 // Import CSS for styling
 import './index.css';
+import Header from './Layout/Header/Header';
+import Navigator from './Layout/Navigator.jsx/Navigator';
 
 function App() {
   return (
     <div className="App">
-      <div className="login-screen">
+      <Header />
+      <Navigator />
+      <div className="content"></div>
+    </div>
+  );
+}
+
+export default App;
+
+/**
+ * <div className="login-screen">
         <div className="login-box">
           <div className="login-logo">
             <h1>
@@ -40,8 +52,4 @@ function App() {
           <button className="btn btn-gold">Logg inn</button>
         </div>
       </div>
-    </div>
-  );
-}
-
-export default App;
+ */
