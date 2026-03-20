@@ -187,3 +187,56 @@ body::before {
   background: var(--gold);
   color: var(--black);
 }
+
+/* Header*/
+
+.header {
+  background: var(--dark);
+  border-bottom: 3px solid var(--gold);
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  height: 72px;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.6);
+}
+
+.header-logo {
+  font-family: 'Babas Neue', cursive;
+  font-size: 36px;
+  color: var(--gold);
+  letter-spacing: 4px;
+  text-shadow: 2px 2px 0 #000;
+}
+
+.header-logo span {
+  font-size: 14px;
+  color: var(--text-dim);
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 6px;
+  display: block;
+  line-height: 1;
+  margin-top: -6px;
+}
+.header-user {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.user-badge {
+  font-family: 'Oswald', sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: var(--text-dim);
+  text-transform: uppercase;
+}
+
+.user-badge strong {
+  color: var(--gold);
+  display: block;
+  font-size: 14px;
+}

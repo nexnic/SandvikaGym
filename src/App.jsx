@@ -1,7 +1,7 @@
 // Import CSS for styling
 import './index.css';
 import Header from './Layout/Header/Header';
-import Navigator from './Layout/Navigator.jsx/Navigator';
+import Navigator from './Layout/Navigator/Navigator';
 
 function App() {
   return (
