@@ -1,30 +1,13 @@
 // Import CSS for styling
 import './index.css';
+import Header from './Layout/Header/Header';
+import Navigator from './Layout/Navigator.jsx/Navigator';
 
 function App() {
   return (
     <div className="App">
-      <div className="header">
-        <div className="header-logo">
-          Sandvik Gym <span>Admin System</span>
-        </div>
-        <div className="header-user">
-          <div className="user-bagge">
-            {' '}
-            Innlogget som <strong id="logged-in-name">Admin</strong>
-          </div>
-          <button classname="btn btn-outline btn-sm">Logg ut</button>
-        </div>
-      </div>
-      <div className="nav">
-        <button className="nav-btn active">Dashboard</button>
-        <button className="nav-btn">Medlemmer</button>
-        <button className="nav-btn">Økonomi</button>
-        <button className="nav-btn">Produkter</button>
-        <button className="nav-btn">Salg</button>
-        <button className="nav-btn">Ansatte</button>
-        <button className="nav-btn">Innstillinger</button>
-      </div>
+      <Header />
+      <Navigator />
       <div className="content"></div>
     </div>
   );
