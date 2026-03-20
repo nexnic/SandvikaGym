@@ -1,5 +1,6 @@
 // Import CSS for styling
 import './index.css';
+import Dashboard from './Layout/Dashboard/Dashboard';
 import Header from './Layout/Header/Header';
 import Navigator from './Layout/Navigator/Navigator';
 
@@ -8,7 +9,9 @@ function App() {
     <div className="App">
       <Header />
       <Navigator />
-      <div className="content"></div>
+      <div className="content">
+        <Dashboard />
+      </div>
     </div>
   );
 }
