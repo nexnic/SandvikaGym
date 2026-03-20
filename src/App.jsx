@@ -2,9 +2,13 @@
 import './index.css';
 
 function App() {
-  return (
-    <div className="App">
-      <div className="login-screen">
+  return <div className="App"></div>;
+}
+
+export default App;
+
+/**
+ * <div className="login-screen">
         <div className="login-box">
           <div className="login-logo">
             <h1>
@@ -40,8 +44,4 @@ function App() {
           <button className="btn btn-gold">Logg inn</button>
         </div>
       </div>
-    </div>
-  );
-}
-
-export default App;
+ */
