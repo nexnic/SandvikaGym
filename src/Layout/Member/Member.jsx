@@ -1,6 +1,6 @@
 export default function Member() {
   return (
-    <div id="sec-members" className="section">
+    <div id="sec-members" className="section active">
       <div className="section-title">Medlemmer</div>
       <div className="section-sub">
         Registrer og administrer alle medlemmer
