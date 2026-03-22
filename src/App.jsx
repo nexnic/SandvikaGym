@@ -6,6 +6,7 @@ import Header from './Layout/Header/Header';
 import Member from './Layout/Member/Member';
 import Navigator from './Layout/Navigator/Navigator';
 import Product from './Layout/Product/Product';
+import Sell from './Layout/Sell/Sell';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Member />
         <Economy />
         <Product />
+        <Sell />
       </div>
     </div>
   );
