@@ -1,6 +1,6 @@
 export default function Dashboard() {
   return (
-    <div id="sec-dashboard" className="section active">
+    <div id="sec-dashboard" className="section">
       <div className="section-title">Dashboard</div>
       <div className="section-sub">Oversikt - Sandvika Gym</div>
       <div className="stats-grid" id="dash-stats"></div>
