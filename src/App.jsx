@@ -2,6 +2,7 @@
 import './index.css';
 import Dashboard from './Layout/Dashboard/Dashboard';
 import Header from './Layout/Header/Header';
+import Member from './Layout/Member/Member';
 import Navigator from './Layout/Navigator/Navigator';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Navigator />
       <div className="content">
         <Dashboard />
+        <Member />
       </div>
     </div>
   );
