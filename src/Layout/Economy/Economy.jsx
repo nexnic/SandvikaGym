@@ -1,6 +1,6 @@
 export default function Economy() {
   return (
-    <div id="sec-economy" className="section active">
+    <div id="sec-economy" className="section">
       <div className="section-title">Økonomi</div>
       <div className="section-sub">
         Inntekter, utgifter og regnskapsrapport
