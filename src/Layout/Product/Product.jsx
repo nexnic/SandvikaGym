@@ -1,6 +1,6 @@
 export default function Product() {
   return (
-    <div id="sec-products" className="section active">
+    <div id="sec-products" className="section">
       <div className="section-title">Produkter</div>
       <div className="section-sub">Varelager og prissetting</div>
       <div className="actions-row">
