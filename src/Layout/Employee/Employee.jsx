@@ -1,6 +1,6 @@
 export default function Employee() {
   return (
-    <div id="sec-staff" className="section active">
+    <div id="sec-staff" className="section">
       <div className="section-title"> Ansatt</div>
       <div className="section-sub">
         Personalregister, stillinger og vaktplan
