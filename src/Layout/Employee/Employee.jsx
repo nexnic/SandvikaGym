@@ -6,7 +6,7 @@ export default function Employee() {
         Personalregister, stillinger og vaktplan
       </div>
 
-      <div className="">
+      <div className="staff-nav">
         <button className="staff-tab active">Personregister</button>
         <button className="staff-tab active">Vaktplan</button>
         <button className="staff-tab active">PT-kunder</button>
