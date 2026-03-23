@@ -2,6 +2,7 @@
 import './index.css';
 import Dashboard from './Layout/Dashboard/Dashboard';
 import Economy from './Layout/Economy/Economy';
+import Employee from './Layout/Employee/Employee';
 import Header from './Layout/Header/Header';
 import Member from './Layout/Member/Member';
 import Navigator from './Layout/Navigator/Navigator';
@@ -19,6 +20,7 @@ function App() {
         <Economy />
         <Product />
         <Sell />
+        <Employee />
       </div>
     </div>
   );
