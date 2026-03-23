@@ -8,11 +8,21 @@ export default function Sell() {
           <div className="panel-title">Nytt salg</div>
           <div className="form-group">
             <label htmlFor="salg-product">Velg produkt</label>
-            <select name="salge-product" id="salg-product"></select>
+            <select
+              name="salge-product"
+              id="salg-product"
+              className="sell-product-input"
+            ></select>
           </div>
           <div className="form-group">
             <label htmlFor="salg-qty">Antall</label>
-            <input type="number" id="salg-qty" value="1" min="1" />
+            <input
+              type="number"
+              id="salg-qty"
+              value="1"
+              min="1"
+              className="sell-qty-input"
+            />
           </div>
           <div className="form-group">
             <label htmlFor="salge-buyer">Kjøper (Valgfritt)</label>
@@ -20,11 +30,14 @@ export default function Sell() {
               type="text"
               id="salge-buyer"
               placeholder="Navn eller Medlem-ID"
+              className="sell-name-input"
             />
           </div>
           <div>
-            <div id="sale-total">NOK 0</div>
-            <div>Total</div>
+            <div id="sale-total" className="sell-nok">
+              NOK 0
+            </div>
+            <div className="sell-total">Total</div>
           </div>
           <button className="btn btn-gold">Registere Salg</button>
         </div>
