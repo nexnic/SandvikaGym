@@ -8,6 +8,7 @@ import Member from './Layout/Member/Member';
 import Navigator from './Layout/Navigator/Navigator';
 import Product from './Layout/Product/Product';
 import Sell from './Layout/Sell/Sell';
+import Settings from './Layout/Settings/Settings';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Product />
         <Sell />
         <Employee />
+        <Settings />
       </div>
     </div>
   );
