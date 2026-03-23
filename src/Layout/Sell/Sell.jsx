@@ -1,6 +1,6 @@
 export default function Sell() {
   return (
-    <div className="section active">
+    <div className="section">
       <div className="section-title">Salg</div>
       <div className="section-sub">Register produktsalg</div>
       <div className="grid-2">
@@ -33,7 +33,7 @@ export default function Sell() {
               className="sell-name-input"
             />
           </div>
-          <div>
+          <div className="sell-sum-box">
             <div id="sale-total" className="sell-nok">
               NOK 0
             </div>
