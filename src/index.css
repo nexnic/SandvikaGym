@@ -556,3 +556,25 @@ tbody td {
 .staff-tab:hover {
   color: var(--text) !important;
 }
+
+.settings-input {
+  width: 100%;
+  background: var(--black);
+  border: 2px solid var(--steel);
+  padding: 12px 16px;
+  font-family: 'Courier Prim', monospace;
+  font-size: 14px;
+  color: var(--text);
+  outline: none;
+}
+
+.setting-select {
+  width: 50%;
+  background: var(--black);
+  border: 2px solid var(--steel);
+  padding: 12px 16px;
+  font-family: 'Courier Prim', monospace;
+  font-size: 14px;
+  color: var(--text);
+  outline: none;
+}
